@@ -69,7 +69,7 @@ module TicTacToe
         end
 
         def print_board
-            vertical_divider, horizontal_divider = [" | ", "--+--+--"]
+            vertical_divider, horizontal_divider = [" | ", "--+---+--"]
             
             label_for_position = lambda{|position| @board[position] ? @board[position] : position}
             
